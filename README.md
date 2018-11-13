@@ -12,6 +12,10 @@ You can add it to your phone as an app, if you want to; just click menu / add to
 
 Type the code on the textarea.
 
+```javascript
+console.log( 1 );
+```
+
 First button clear the page and the cache with the code.
 
 Second button runs the code.
