@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html language="en" manifest="manifest.appcache">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+	<meta property="og:url" content="http://www.victorribeiro.com/myConsole" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="myConsole" />
+	<meta property="og:author" content="Victor Ribeiro" />
+	<meta property="og:description" content="A javascript editor for your phone" />
+	<meta property="og:image" content="http://www.victorribeiro.com/myConsole/screenshot.jpg" />
+	<title> myConsole </title>
+	<link rel="manifest" href="manifest.json" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="icon" type="image/x-icon" href="favicon.png" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+	<div id="main">
+		<textarea id="myConsole" rows="10" resizeble="no" autofocus autocomplete="off" autocorrect="off" 
+							autocapitalize="off" spellcheck="false"></textarea>
+		<button id="clear" class="btn" title="Clear">&#8709;</button><button title="Run" id="run" class="btn">&#x22B3;</button>
+	</div>
+	<div id="result"></div>
+	<script src="js/main.js"></script>
+</body>
+</html>
