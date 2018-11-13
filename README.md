@@ -23,6 +23,6 @@ As said above, your code is stored in cache, so you don't loose it.
 
 Add a download button - to save the code as *file.js*.
 
-Add a share button - to share via e-mail, whatsapp... - to share a code solution with your friends (or classmates).
+Add a share button - to share via e-mail, whatsapp... a code solution with your friends (or classmates).
 
 Do the above things without disturbing the minimalist design.
