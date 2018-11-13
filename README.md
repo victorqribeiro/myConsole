@@ -1,6 +1,6 @@
 # myConsole
 
-A javascript editor for you phone.
+A JavaScript editor for you phone, in JavaScript.
 
 ![myConsole](screenshot.png)
 
