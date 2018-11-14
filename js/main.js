@@ -37,5 +37,14 @@ function init(){
 		if(result.innerHTML)
 			result.innerHTML += "<hr>";
 	});
+	window.URL = window.URL || window.webkitURL;
+	let download = document.getElementById("download");
+	download.addEventListener('click',()=>{
+		let blob = new Blob([myconsole.value], {type: 'text/js'});
+		let link = document.createElement('a');
+		link.href = window.URL.createObjectURL(blob);
+		link.download = 'script.js';
+		link.click();
+	});
 }
 init();

@@ -17,6 +17,9 @@ html, body{
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+#toolbar{
+	display: flex;
+}
 .btn{
 	margin: 0;
 	display: inline-block;
@@ -27,8 +30,11 @@ html, body{
 	box-sizing: border-box;
 }
 #run{
-	width: 80vW;
+	width: 60vW;
 }
 #clear{
+	width: 20vW;
+}
+#download{
 	width: 20vW;
 }

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
 	<meta property="og:url" content="http://www.victorribeiro.com/myConsole" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="myConsole" />
@@ -19,7 +20,11 @@
 	<div id="main">
 		<textarea id="myConsole" rows="10" resizeble="no" autofocus autocomplete="off" autocorrect="off" 
 							autocapitalize="off" spellcheck="false"></textarea>
-		<button id="clear" class="btn" title="Clear">&#8709;</button><button title="Run" id="run" class="btn">&#x22B3;</button>
+		<div id="toolbar">
+			<button id="clear" class="btn" title="Clear">&#8709;</button>
+			<button id="download" class="btn" title="Clear">&#8711;</button>
+			<button id="run" class="btn" title="Run">&#x22B3;</button>
+		</div>
 	</div>
 	<div id="result"></div>
 	<script src="js/main.js"></script>
