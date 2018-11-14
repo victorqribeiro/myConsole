@@ -1,3 +1,10 @@
+window.applicationCache.addEventListener('updateready', function(e) {
+	if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+		window.applicationCache.swapCache();
+		window.location.reload();
+	}
+}, false);
+
 function init(){
 	let state = document.body.cloneNode(true);
 	let myconsole = document.getElementById("myConsole");
@@ -47,4 +54,5 @@ function init(){
 		link.click();
 	});
 }
+
 init();
