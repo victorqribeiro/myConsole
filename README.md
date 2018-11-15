@@ -8,6 +8,8 @@ A live version of it is hosted [here](https://victorribeiro.com/myConsole).
 
 You can add it to your phone as an app, if you want to; just click menu / add to your homescreen.
 
+The code you're seeing in the screenshot is [here](https://jsfiddle.net/victorqribeiro/vxf2ajzm/).
+
 ## How to use it
 
 Type the code on the textarea.
