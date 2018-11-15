@@ -18,7 +18,9 @@ console.log( 1 );
 
 First button clear the page and the cache with the code.
 
-Second button runs the code.
+Second button downloads the code as *script.js*.
+
+Third button runs the code.
 
 As said above, your code is stored in cache, so you don't loose it.
 
