@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2018-11-14:v1.01
+# 2018-11-16:v1.0
 
 CACHE:
 manifest.json
@@ -7,3 +7,4 @@ favicon.png
 index.html
 css/main.css
 js/main.js
+sw.js
