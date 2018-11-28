@@ -33,7 +33,7 @@ function init(){
 	}
 	let result = document.getElementById("result");
 	result.style.marginTop = main.offsetHeight + 'px';
-	console.log = function(){
+	let myLog = function(){
 		for(let i = 0; i < arguments.length; i++){
 			if( i != 0)
 				result.innerHTML += ", ";
@@ -41,6 +41,8 @@ function init(){
 		}
 		result.innerHTML += "<br>";
 	};
+	console.log = myLog;
+	document.write = myLog;
 	let clear = document.getElementById("clear");
 	clear.addEventListener('click',()=>{
 		myconsole.value = "";
