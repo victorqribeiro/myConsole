@@ -1,7 +1,5 @@
 if('serviceWorker' in navigator) {
-  navigator.serviceWorker
-           .register('/myConsole/sw.js')
-           .then(function() { });
+	navigator.serviceWorker.register('/myConsole/sw.js');
 }
 
 let deferredPrompt;
