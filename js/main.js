@@ -1,8 +1,8 @@
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('/myConsole/sw.js', {scope: './'})
-           .then(response => response)
-           .catch(reason => reason);
+  .register('/myConsole/sw.js', {scope: './'})
+  .then(response => response)
+  .catch(reason => reason);
 }
 
 let deferredPrompt;
@@ -32,8 +32,6 @@ function init(){
 	if(tmp){
 		myconsole.value = tmp;
 	}
-	let result = document.getElementById("result");
-	result.style.marginTop = main.offsetHeight + 'px';
 	let myLog = function(){
 		for(let i = 0; i < arguments.length; i++){
 			if( i != 0)
