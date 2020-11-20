@@ -1,12 +1,14 @@
+::-webkit-resizer {
+    border: 1px solid black;
+    background: gray;
+    display: block;
+    width: 150px !important;
+    height: 150px !important;
+}
 html, body{
   margin: 0;
   padding: 0;
   font-family: Serif;
-}
-#main{
-	position: fixed;
-	top: 0;
-	left: 0;
 }
 #myConsole{
 	display: block;
@@ -14,8 +16,8 @@ html, body{
 	resize: vertical;
 	font-size: 1em;
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 #toolbar{
 	display: flex;
@@ -38,10 +40,6 @@ html, body{
 #download{
 	width: 20vW;
 }
-::-webkit-resizer {
-    border: 1px solid black;
-    background: gray;
-    display: block;
-    width: 150px !important;
-    height: 150px !important;
+#result{
+    margin-top: 0 !important;
 }
