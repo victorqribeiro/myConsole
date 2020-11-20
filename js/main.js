@@ -1,5 +1,8 @@
 if('serviceWorker' in navigator) {
-	navigator.serviceWorker.register('/myConsole/sw.js');
+  navigator.serviceWorker
+           .register('/myConsole/sw.js', {scope: './'})
+           .then(response => response)
+           .catch(reason => reason);
 }
 
 let deferredPrompt;

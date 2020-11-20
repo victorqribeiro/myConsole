@@ -11,7 +11,7 @@ html, body{
 #myConsole{
 	display: block;
 	width: 100vW;
-	resize: none;
+	resize: vertical;
 	font-size: 1em;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -37,4 +37,11 @@ html, body{
 }
 #download{
 	width: 20vW;
+}
+::-webkit-resizer {
+    border: 1px solid black;
+    background: gray;
+    display: block;
+    width: 150px !important;
+    height: 150px !important;
 }
